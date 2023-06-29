@@ -5,3 +5,15 @@
 .btn{
     @apply bg-[#5FCE55] px-6 py-2 text-center rounded-full flex justify-between
 }
+
+.contain{
+    @apply mx-5 my-4
+}
+
+.contectb{
+    @apply  bg-[#999999]/[50%]  md:p-3 p-1  placeholder:text-black  rounded-lg  placeholder:text-xs md:placeholder:text-lg 
+}
+
+.btnc{
+   @apply text-black bg-[#5FCE55] hover:bg-[#2ACF1B] rounded-lg md:text-lg px-5 py-2.5 text-center inline-flex items-center gap-3  md:w-32 font-semibold
+}
