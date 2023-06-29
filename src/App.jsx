@@ -1,10 +1,13 @@
-import React from 'react'
-import { Navbar } from './components'
+import React from "react";
+import { ChakraProvider } from "@chakra-ui/react";
+import { Navbar } from "./components";
 
 const App = () => {
   return (
-    <Navbar/>
-  )
-}
+    <ChakraProvider>
+      <Navbar />
+    </ChakraProvider>
+  );
+};
 
-export default App
+export default App;
