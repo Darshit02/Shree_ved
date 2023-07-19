@@ -5,7 +5,7 @@ const Contectus = () => {
     return (
         <>
             <div className="contain">
-                <div className="text-4xl font-semibold ">Contect<span className='text-[#5FCE55]' >Us</span></div>
+                <div className="text-4xl font-semibold ">Contect<span className='text-[#5FCE55]' > Us</span></div>
                 <div className="h-px my-4  border-[2px] border-black" />
                 {/* main contect us box  */}
                 <div  >

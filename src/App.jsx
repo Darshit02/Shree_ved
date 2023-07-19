@@ -7,11 +7,11 @@ import Aboutus from "./components/Aboutus"
 
 const App = () => {
   return (
-    <>
+    <div>
       <Navbar />
-      {/* <Contectus /> */}
-      {/* <Aboutus /> */}
-    </>
+      <Aboutus />
+      <Contectus />
+    </div>
   );
 };
 

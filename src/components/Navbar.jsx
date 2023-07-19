@@ -17,10 +17,12 @@ const Navbar = () => {
               <div className=" rounded-full bg-[#B3FFAC] relative right-3 ">
               <img  src="logo.png" alt="" className='p-2 h-[30px] w-[30px] mix-blend-multiply'/>
               </div>
+              <a from="/">
               <p className="pt-[2px] text-black">Get In Touch</p>
+              </a>
             </button>
             </div>
-            <div className="ml-5">
+            <div className="ml-5 ">
               Navbar
             </div>
           </div>
