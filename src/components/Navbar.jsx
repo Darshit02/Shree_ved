@@ -35,7 +35,7 @@ const Navbar = () => {
             <button className="btn">
               <div className=" rounded-full bg-[#B3FFAC] relative right-3 ">
                 <img
-                  src="logo.png"
+                  src="../../public/chevron-right-circle.svg"
                   alt=""
                   className="p-2 h-[30px] w-[30px] mix-blend-multiply"
                 />
