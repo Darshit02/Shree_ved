@@ -17,3 +17,7 @@
 .btnc{
    @apply text-black bg-[#5FCE55] hover:bg-[#2ACF1B] rounded-lg md:text-lg px-5 py-2.5 text-center inline-flex items-center gap-3  md:w-32 font-semibold
 }
+.main{
+    background: url("../public/output-onlinepngtools.png") no-repeat ;
+
+}

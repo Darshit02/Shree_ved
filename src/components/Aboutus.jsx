@@ -2,12 +2,12 @@ import React from 'react'
 
 const Card = ({ name, degree, img, specialized }) => {
     return (
-        <div class=" w-80 bg-[#EBEBEB] rounded-lg shadow-lg p-10">
-            <img class="flex h-48  rounded-xl shadow-lg items-center" src={img} alt="" />
+        <div class=" w-80 bg-[#EBEBEB] rounded-lg shadow-lg p-10 justify-center flex flex-col items-center">
+            <img class="flex h-32 w-32  rounded-full shadow-lg items-center mb-2" src={img} alt="" />
             <div class="p-5">
                 <h5 class="mb-2 text-xl font-bold  text-black">{name}</h5>
-                <p class="mb-3 font-semibold text-[#5FCE55]">{degree}</p>
-                <p class="mb-3 font-semibold text-[#7E7E7E]">{specialized}</p>
+                <p class="mb-2 font-semibold text-[#5FCE55]">{degree}</p>
+                <p class="mb-2 font-semibold text-[#7E7E7E]">{specialized}</p>
             </div>
         </div>
     );
@@ -38,7 +38,7 @@ const Aboutus = () => {
 
     return (
         <>
-            <div className="contain">
+            <div className="contain pt-12">
                 {/* Name */}
                 <div className="text-4xl font-semibold ">Our <span className='text-[#5FCE55]' >Supporting</span> Team</div>
                 <div className="h-px my-4  border-[2px] border-black" />
