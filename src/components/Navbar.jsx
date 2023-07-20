@@ -7,24 +7,24 @@ const Navbar = () => {
   const naVLink = [
     {
       name : "Home",
-      icon : "../../public/home.svg" ,
+      icon : "/public/home.svg" ,
       path : "" 
     },
     {
       name : "About Us",
-      icon : "../../public/alert-circle.svg" ,
+      icon : "/public/alert-circle.svg" ,
       path : "" 
     },
     {
       name : "Contact Us",
-      icon : "../../public/mail.svg" ,
+      icon : "/public/mail.svg" ,
       path : "" 
     }
   ]
   const [toggle, setToggle] = useState(false);
   const [isActive ,setActive] = useState(true)
   return (
-    <nav className="h-16 bg-gray-100">
+    <nav className="h-16 bg-gray-100 drop-shadow-lg">
       <div className="flex justify-between items-start">
         <div className="flex ml-5 mt-3 items-center ">
           <img className="h-9 w-9 mix-blend-multiply" src="logo.png" alt="" />

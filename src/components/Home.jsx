@@ -18,7 +18,7 @@ const Home = () => {
         <button className="btn w-[11rem] xl:ml-[6.5rem]">
               <div className=" rounded-full bg-[#B3FFAC] relative right-3 ">
                 <img
-                  src="../../public/alert-circle.svg"
+                  src="/public/alert-circle.svg"
                   alt=""
                   className="p-2 h-[30px] w-[30px] mix-blend-multiply"
                 />
