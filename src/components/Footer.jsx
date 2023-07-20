@@ -46,7 +46,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-gray-100">
+                <div className="bg-gray-100 flex items-center justify-center">
                     <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
                         <div className="flex ml-5 mt-3 items-center flex-row ">
                             <a href="/">
@@ -56,8 +56,8 @@ const Footer = () => {
                                 <p className="font-bold pl-3 text-xl text-[#5FCE55] ">Shree ved</p>
                             </a>
                         </div>
-                        <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2023 Shree Ved Ayurvedic Hospital</p>
-                        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                        <p className=" text-sm text-gray-500 sm:ml-6 mt-0 xl:mt-4">© 2023 Shree Ved Ayurvedic Hospital</p>
+                        <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start cursor-pointer">
                             <a className="text-gray-500">
                                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
                                     <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
