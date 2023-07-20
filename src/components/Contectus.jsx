@@ -4,7 +4,7 @@ import { AiOutlineSend } from "react-icons/ai";
 const Contectus = () => {
   return (
     <>
-      <div className="contain pt-16">
+      <div className="contain pt-5 mb-5">
         <div className="text-4xl font-semibold ">
           Contect<span className="text-[#5FCE55]">Us</span>
         </div>
@@ -41,15 +41,15 @@ const Contectus = () => {
               cols="30"
               rows="6"
             />
-            <button className="btn inline-block w-[11rem] text-white">
+            <button className="btn inline-block w-[130px] text-white">
               <div className=" rounded-full bg-[#B3FFAC] relative right-3 ">
                 <img
-                  src="../../public/send.svg"
+                  src="send.svg"
                   alt=""
                   className="p-2 h-[30px] w-[30px] mix-blend-multiply"
                 />
               </div>
-              <p className="pt-[2px]">Get In Touch</p>
+              <p className="pt-[2px] ">Send</p>
             </button>
           </div>
         </div>

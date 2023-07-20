@@ -4,9 +4,9 @@ const Home = () => {
   return (
     <>
     <div className=" w-full h-screen">
-    <div className='flex justify-between items-center xl:flex-row-reverse flex-col gap-'>
+    <div className='flex justify-evenly items-center xl:flex-row-reverse flex-col gap-0 overflow-hidden'>
         <div className="img">
-        <img src="/public/Img - Hero.svg" alt="" className='xl:h-[48rem]'/>
+        <img src="Img - Hero.png" alt="" className='xl:h-[45rem] '/>
         </div>
         <div className="flex flex-col items-center gap-6 xl:gap-6 xl:items-start ">
         <div className="text text-center xl:text-left xl:ml-[7rem] xl:gap-5 flex flex-col gap-3">
@@ -18,7 +18,7 @@ const Home = () => {
         <button className="btn w-[11rem] xl:ml-[6.5rem]">
               <div className=" rounded-full bg-[#B3FFAC] relative right-3 ">
                 <img
-                  src="/public/alert-circle.svg"
+                  src="../../public/alert-circle.svg"
                   alt=""
                   className="p-2 h-[30px] w-[30px] mix-blend-multiply"
                 />
