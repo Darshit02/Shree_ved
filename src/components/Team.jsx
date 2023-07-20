@@ -39,7 +39,7 @@ const Team = () => {
 
     return (
         <>
-            <div className="contain pt-12">
+            <div className="contain pt-12" id='team'>
                 {/* Name */}
                 <div className="text-4xl font-semibold ">Our <span className='text-[#5FCE55]' >Supporting</span> Team</div>
                 <div className="h-px my-4  border-[2px] border-black" />

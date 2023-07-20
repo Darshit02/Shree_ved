@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 
 
@@ -7,17 +8,17 @@ const Navbar = () => {
     {
       name: "Home",
       icon: "home.svg",
-      path: "/"
+      path: "home"
     },
     {
       name: "Team",
       icon: "alert-circle.svg",
-      path: "/team"
+      path: "team"
     },
     {
       name: "Contact Us",
       icon: "mail.svg",
-      path: "/contact"
+      path: "contect"
     }
   ]
   const [toggle, setToggle] = useState(false);
@@ -26,12 +27,12 @@ const Navbar = () => {
     <nav className="h-16 bg-gray-100">
       <div className="flex justify-between items-start">
       <div className="flex ml-5 mt-3 items-center flex-row ">
-          <a href="/">
+          <Link href="/">
             <img className="h-9 w-9 mix-blend-multiply" src="logo.png" alt="" />
-          </a>
-          <a href="/">
+          </Link>
+          <Link href="/">
             <p className="font-bold pl-3 text-xl text-[#5FCE55] ">Shree ved</p>
-          </a>
+          </Link>
         </div>
         <div className="flex mr-5 justify-between mt-2 ml-4">
           <div className="hidden  xl:block">
@@ -77,10 +78,10 @@ const Navbar = () => {
             >
               <div className="flex flex-col gap-5 text-lg mt-[7rem] ml-10">
                 {naVLink.map((link) => (
-                  <a href={link.path}>
+                  <Link to={link.path} spy={true} smooth={true} offset={0} duration={500}>
                     <div className="flex relative right-0 hover:bg-white pr-2 pl-1 py-2 rounded-xl">
                       <img src={link.icon} alt="" className="px-2" /><span>{link.name}</span></div>
-                  </a>
+                  </Link>
                 ))}
               </div>
             </motion.div>

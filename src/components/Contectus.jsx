@@ -4,7 +4,7 @@ import { AiOutlineSend } from "react-icons/ai";
 const Contectus = () => {
   return (
     <>
-      <div className="contain pt-5 mb-5">
+      <div className="contain pt-5 mb-5" id="contect">
         <div className="text-4xl font-semibold ">
           Contect<span className="text-[#5FCE55]">Us</span>
         </div>
