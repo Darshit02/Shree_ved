@@ -24,7 +24,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [isActive, setActive] = useState(true)
   return (
-    <nav className="h-16 bg-gray-100">
+    <nav className="h-16 bg-gray-100 drop-shadow-lg">
       <div className="flex justify-between items-start">
       <div className="flex ml-5 mt-3 items-center flex-row ">
           <Link href="/">

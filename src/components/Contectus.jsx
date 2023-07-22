@@ -20,9 +20,9 @@ const Contectus = () => {
             />
           </div>
           {/* text boxes  */}
-          <div className="box-content p-4 md:p-14 flex flex-col gap-6 bg-[#5FCE55]/[15%] rounded-lg md:rounded-3xl mt-[4.3rem] md:mx-[15%]  ">
+          <div className="box-content p-4 md:p-14  mt-10 flex flex-col gap-6 bg-[#5FCE55]/[15%] rounded-lg md:rounded-3xl md:mt-[4.3rem] md:mx-[15%]  ">
             <input
-              className="contectb "
+              className="contectb"
               type="text"
               name="name"
               placeholder="Name"
@@ -53,6 +53,8 @@ const Contectus = () => {
             </button>
           </div>
         </div>
+        {/* tag line */}
+        <p className='flex md:text-3xl m-14 text-lg font-semibold text-[#5FCE55] justify-center text-center italic underline  decoration-[#5FCE55]'>"Ayurveda: The ancient wisdom of healing"</p>
       </div>
     </>
   );

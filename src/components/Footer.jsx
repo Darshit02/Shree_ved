@@ -49,7 +49,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-gray-100">
+                <div className="bg-gray-100 flex items-center justify-center">
                     <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
                         <div className="flex ml-5 items-center flex-row ">
                             <a href="/">

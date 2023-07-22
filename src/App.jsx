@@ -1,10 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes , Route } from "react-router-dom";
 import { Navbar } from "./components";
 import Contectus from "./components/Contectus";
 import Team from "./components/Team"
 import Home from "./components/Home";
 import Footer from "./components/Footer";
+import AboutUs from "./components/AboutUs";
 
 // logo file Added so use that
 

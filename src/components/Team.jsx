@@ -49,8 +49,7 @@ const Team = () => {
                         <Card key={index} name={data.name} img={data.img} degree={data.degree} specialized={data.specialized} />
                     ))}
                 </div>
-                {/* tag line */}
-                <p className='flex md:text-3xl text-lg font-semibold text-[#5FCE55] justify-center italic underline  decoration-[#5FCE55]'>"Ayurveda: The ancient wisdom of healing"</p>
+                
             </div>
 
 
