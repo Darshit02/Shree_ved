@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineSend } from "react-icons/ai";
 
 const Contectus = () => {
   return (
@@ -20,7 +19,8 @@ const Contectus = () => {
             />
           </div>
           {/* text boxes  */}
-          <div className="box-content p-4 md:p-14  mt-10 flex flex-col gap-6 bg-[#5FCE55]/[15%] rounded-lg md:rounded-3xl md:mt-[4.3rem] md:mx-[15%]  ">
+          <div 
+          className="box-content p-4 md:p-14 mt-10 flex flex-col gap-6 bg-[#5FCE55]/[15%] rounded-lg md:rounded-3xl md:mt-[4.3rem] md:mx-[15%]  justify-end">
             <input
               className="contectb"
               type="text"
@@ -41,6 +41,7 @@ const Contectus = () => {
               cols="30"
               rows="6"
             />
+            {/* button */}
             <button className="btn inline-block w-[130px] text-white">
               <div className=" rounded-full bg-[#B3FFAC] relative right-3 ">
                 <img

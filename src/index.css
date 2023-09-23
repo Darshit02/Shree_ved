@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .btn{
-    @apply bg-[#5FCE55] px-6 py-2 text-center rounded-full flex justify-between
+    @apply bg-[#5FCE55] px-6 py-2 text-center rounded-full flex justify-evenly
 }
 
 .contain{
@@ -17,7 +17,19 @@
 .btnc{
    @apply text-black bg-[#5FCE55] hover:bg-[#2ACF1B] rounded-lg md:text-lg px-5 py-2.5 text-center inline-flex items-center gap-3  md:w-32 font-semibold
 }
-.main{
-    background: url("Desktop\ -\ 1.png") no-repeat ;
-
-}
+.main {
+    background: url("Desktop - 1.png") no-repeat;
+    background-size: cover; /* This will make the background image cover the whole container */
+    background-position: center; /* This will center the background image */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .main {
+      /* Add styles for the background image on smaller screens */
+      /* For example, you can change the background-size and background-position */
+      /* Adjust these values based on your specific design and requirements */
+      background-size: contain; /* or '100%' or other size */
+      background-position: top; /* or 'left', 'right', etc. */
+    }
+  }

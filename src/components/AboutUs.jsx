@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div id="about">
       <div className="text-4xl font-semibold pt-[8rem] px-4">About
      <span className="text-[#5FCE55]"> Us</span> 
       </div>
@@ -25,12 +25,12 @@ const AboutUs = () => {
       <button className="btn w-[130px] text-white relative left-[12rem] xl:left-[41rem] mt-10">
               <div className=" rounded-full bg-[#B3FFAC] relative right-3 ">
                 <img
-                  src="/public/plus-square (1).svg"
+                  src="plus-square.svg"
                   alt=""
                   className="p-2 h-[30px] w-[50px] mix-blend-multiply"
                 />
               </div>
-              <p className="pt-[2px] ">Services</p>
+              <p className="pt-[2px]">Services</p>
             </button>
             <p className="text-center mx-4 text-base xl:text-3xl text-gray-600 mt-[5rem]">Harnessing the ancient wisdom of Ayurveda to restore balance,<br /> promote holistic well-being, and nurture your body, mind, and spirit.</p>
     </div>

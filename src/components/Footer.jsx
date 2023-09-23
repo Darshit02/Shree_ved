@@ -2,6 +2,7 @@ import React from 'react'
 import { FaTelegram } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
 import { BiLogoFacebookCircle } from "react-icons/bi";
+import { Link } from "react-scroll";
 
 const Footer = () => {
     return (
@@ -9,21 +10,24 @@ const Footer = () => {
 
             <footer className="text-gray-600 body-font bg-gray-100">
                 <div className="container px-5 pt-10 pb-5 mx-auto ">
-                    <div className="flex flex-wrap justify-evenly md:text-left text-center order-first">
+                    <div className="md:flex flex-wrap justify-evenly md:text-left text-center order-first hidden">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Know US</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <a href='/about' className="text-gray-600 hover:text-gray-800">About US</a>
+                                    <Link to='home' spy={true} smooth={true} offset={-100} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Home</Link>
                                 </li>
                                 <li>
-                                    <a href='/contact' className="text-gray-600 hover:text-gray-800">Contect US</a>
+                                    <Link to='about' spy={true} smooth={true} offset={-100} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">About US</Link>
                                 </li>
                                 <li>
-                                    <a href='/team' className="text-gray-600 hover:text-gray-800">Our Team</a>
+                                    <Link to='contect' spy={true} smooth={true} offset={-100} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Contect US</Link>
                                 </li>
                                 <li>
-                                    <a href='/services' className="text-gray-600 hover:text-gray-800">Our Services</a>
+                                    <Link to='team' spy={true} smooth={true} offset={-100} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Our Team</Link>
+                                </li>
+                                <li>
+                                    <Link to='services' spy={true} smooth={true} offset={0} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Our Services</Link>
                                 </li>
                             </nav>
                         </div>
@@ -67,7 +71,7 @@ const Footer = () => {
                             <a href='https://www.instagram.com/shreeved22/' className="ml-3 text-gray-500 text-2xl">
                                 <AiFillInstagram />
                             </a>
-                            <a  className='ml-3 text-gray-500 text-xl'>
+                            <a className='ml-3 text-gray-500 text-xl'>
                                 <FaTelegram />
                             </a>
                         </span>

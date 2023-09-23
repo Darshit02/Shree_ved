@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const Home = () => {
   return (
     <>
-      <div className="h-screen main " id='home'>
+      <div className="h-screen main" id='home'>
         <div className='flex justify-evenly items-center xl:flex-row-reverse flex-col gap-0 overflow-hidden'>
           <div className="img">
-            <img src="Img - Hero.png" alt="" className='xl:h-[45rem] w-[100vh] mt-2' />
+            <img src="Img - Hero.png" alt="" className='xl:h-[45rem] xl:w-[100vh] w-full mt-2' />
           </div>
           <div className="flex flex-col items-center gap-6 xl:gap-6 xl:items-start ">
             <div className="text text-center xl:text-left xl:ml-[7rem] xl:gap-5 flex flex-col gap-3">
@@ -29,9 +29,7 @@ const Home = () => {
         </div>
       </div>
     </>
-
-
   )
 }
 
-export default Home
+export default Home;

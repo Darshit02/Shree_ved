@@ -19,7 +19,7 @@ const Team = () => {
     const data = [
         {
             name: "Dr. Umesh Detroja",
-            degree: "B.A.M.S. & D.P.K.",
+            degree: "B.A.M.S. , D.P.K.",
             img: "",
             specialized: "Ayurved Doctor",
         },
@@ -31,7 +31,7 @@ const Team = () => {
         },
         {
             name: "Dr. Chirag Vidja",
-            degree: "B.A.M.S. & M.D.",
+            degree: "B.A.M.S. , M.D.",
             img: "",
             specialized: "Ayurved Doctor",
         },

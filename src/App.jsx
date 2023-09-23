@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import AboutUs from "./components/AboutUs";
 
+
 // logo file Added so use that
 
 const App = () => {
@@ -13,9 +14,10 @@ const App = () => {
     <>
       <Navbar />
       <Home />
+      <AboutUs />
       <Team />
       <Contectus /> 
-      <Footer /> 
+      <Footer />
     </>
   );
 };
