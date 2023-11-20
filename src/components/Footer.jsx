@@ -8,23 +8,23 @@ const Footer = () => {
     return (
         <>
 
-            <footer className="text-gray-600 body-font bg-gray-100">
+            <footer className="text-gray-600 body-font bg-[#ECF5DE]">
                 <div className="container px-5 pt-10 pb-5 mx-auto ">
                     <div className="md:flex flex-wrap justify-evenly md:text-left text-center order-first hidden">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Know US</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <Link to='home' spy={true} smooth={true} offset={-100} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Home</Link>
+                                    <Link to='home' spy={true} smooth={true} offset={0} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Home</Link>
                                 </li>
                                 <li>
-                                    <Link to='about' spy={true} smooth={true} offset={-100} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">About US</Link>
+                                    <Link to='about' spy={true} smooth={true} offset={0} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">About US</Link>
                                 </li>
                                 <li>
-                                    <Link to='contect' spy={true} smooth={true} offset={-100} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Contect US</Link>
+                                    <Link to='contact' spy={true} smooth={true} offset={0} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Contact US</Link>
                                 </li>
                                 <li>
-                                    <Link to='team' spy={true} smooth={true} offset={-100} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Our Team</Link>
+                                    <Link to='team' spy={true} smooth={true} offset={0} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Our Team</Link>
                                 </li>
                                 <li>
                                     <Link to='services' spy={true} smooth={true} offset={0} duration={500} className="text-gray-600 hover:text-gray-800 cursor-pointer">Our Services</Link>
@@ -32,7 +32,7 @@ const Footer = () => {
                             </nav>
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Shree-Ved Ayurvedic Hospital</h2>
+                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Shree-Ved Ayurveda Hospital</h2>
                             <p>
                                 Moto
                             </p>
@@ -53,7 +53,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-gray-100 flex items-center justify-center">
+                <div className="bg-[#ECF5DE] flex items-center justify-center">
                     <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
                         <div className="flex ml-5 items-center flex-row ">
                             <a href="/">
@@ -63,7 +63,7 @@ const Footer = () => {
                                 <p className="font-bold pl-3 text-xl text-[#5FCE55] ">Shree ved</p>
                             </a>
                         </div>
-                        <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2023 Shree Ved Ayurvedic Hospital</p>
+                        <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2022 Shree Ved Ayurveda Hospital</p>
                         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center items-center sm:justify-start">
                             <a className="text-gray-500 text-2xl">
                                 <BiLogoFacebookCircle />

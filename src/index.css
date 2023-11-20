@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .btn{
-    @apply bg-[#5FCE55] px-6 py-2 text-center rounded-full flex justify-evenly
+    @apply bg-[#5FCE55] px-6 py-2 text-center rounded-full flex md:justify-evenly justify-center gap-5 md:gap-0 text-black
 }
 
 .contain{
@@ -19,17 +19,43 @@
 }
 .main {
     background: url("Desktop - 1.png") no-repeat;
-    background-size: cover; /* This will make the background image cover the whole container */
-    background-position: center; /* This will center the background image */
+    background-size: cover; 
+    background-position: center;
+
   }
   
-  /* Media query for smaller screens */
-  @media (max-width: 768px) {
-    .main {
-      /* Add styles for the background image on smaller screens */
-      /* For example, you can change the background-size and background-position */
-      /* Adjust these values based on your specific design and requirements */
-      background-size: contain; /* or '100%' or other size */
-      background-position: top; /* or 'left', 'right', etc. */
-    }
+  .no-scroll {
+    overflow-y: hidden;
   }
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* for menu animation */
+.slidein {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slideout {
+  opacity: 1;
+  transform: translateX(100%);
+}
