@@ -11,6 +11,12 @@ import Footer from "./components/Footer"
 
 const App = () => {
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top when component mounts or updates
+  }, []);
+  
+
+
   return (
     <>
       <div className="">

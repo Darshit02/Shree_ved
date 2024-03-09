@@ -34,7 +34,16 @@ const Contectus = () => {
         >
           Contact<span className="text-[#5FCE55] ml-1">Us</span>
         </motion.div>
-        <div className="h-px my-4  border-[2px] border-black" />
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            duration: 0.5,
+            delay: 0.3,
+            ease: "easeInOut"
+          }}
+          viewport={{ once: true }}
+          className="h-px my-4  border-[2px] border-black" />
         {/* main contact us box  */}
         <div>
           {/* img */}
