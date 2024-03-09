@@ -1,31 +1,34 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./components";
-import Contectus from "./components/Contectus";
-import Team from "./components/Team"
-import Home from "./components/Home";
-import Footer from "./components/Footer";
-import AboutUs from "./components/AboutUs";
-import Service from "./components/Service";
 import ScrollToTopButton from "./components/UI/ScrollTop";
-
-
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Panchakarma from "./pages/Panchakarma";
+import Garbhsanskar from "./pages/Garbhsanskar";
+import AgniKarma from "./pages/AgniKarma";
+import Home from "./pages/Home";
+import Footer from "./components/Footer"
 
 
 const App = () => {
 
   return (
-    <div className="">
-      <div className="bg-[#F6FCEE] scrollbar-hide" >
-        <Navbar />
-        <Home />
-        <AboutUs />
-        <Service />
-        <Team />
-        <Contectus />
-        <Footer />
-        <ScrollToTopButton />
+    <>
+      <div className="">
+        <div className="bg-[#F6FCEE] scrollbar-hide" >
+          <Navbar />
+          <Router>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              {/* <Route path="services/panchakarma" element={<Panchakarma />} />
+              <Route path="services/garbhsanskar" element={<Garbhsanskar />} />
+              <Route path="services/agnikarma" element={<AgniKarma />} /> */}
+            </Routes>
+          </Router>
+          <Footer />
+          <ScrollToTopButton />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

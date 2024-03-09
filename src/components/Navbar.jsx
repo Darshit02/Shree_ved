@@ -120,7 +120,7 @@ const Navbar = () => {
                   >
                     <div className="flex flex-col gap-5 text-lg mt-[7rem] md:my-[3rem] ml-10 ">
                       {naVLink.map((link) => (
-                        <Link to={link.path} spy={true} smooth={true} offset={0} duration={500}>
+                        <Link to={link.path} spy={true} smooth={true} offset={15} duration={500}>
                           <div className="flex relative right-0 hover:bg-white md:pr-2 md:pl-1 md:py-2 rounded-xl cursor-pointer md:text-lg text-2xl " onClick={toggleMenu}>
                             <img src={link.icon} alt="" className="px-2" onClick={toggleMenu} /><span>{link.name}</span>
                           </div>

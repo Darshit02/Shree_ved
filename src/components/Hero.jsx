@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from "framer-motion";
 import { Link } from 'react-scroll';
 
-const Home = () => {
+const Hero = () => {
   return (
     <>
       <div className=" mx-3 " id='home'>
@@ -65,4 +65,4 @@ const Home = () => {
   )
 }
 
-export default Home;
+export default Hero;

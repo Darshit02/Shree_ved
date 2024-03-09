@@ -29,19 +29,19 @@ const Team = () => {
 
     const data = [
         {
-            name: "Dr. Umesh Detroja",
+            name: "Dr. wasd",
             degree: "B.A.M.S. , D.P.K.",
             img: "logo.png",
             specialized: "Ayurved Doctor",
         },
         {
-            name: "Dr. Maitree Detroja",
+            name: "Dr. abc",
             degree: "B.A.M.S.",
             img: "logo.png",
             specialized: "Ayurved Doctor",
         },
         {
-            name: "Dr. Chirag Vidja",
+            name: "Dr. xyz",
             degree: "B.A.M.S. , M.D.",
             img: "logo.png",
             specialized: "Ayurved Doctor",

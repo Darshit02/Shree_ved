@@ -31,7 +31,7 @@ const AboutUs = () => {
         viewport={{ once: true }}
       >
         The main aim of these institutions is to promote health and wellness by
-        focusing on balance between <span className="text-[#5FCE55]">physical & mental health</span> . Our <br />
+        focusing on balance between <span className="text-[#5FCE55]">Physical & mental health</span> . Our <br />
         hospital usually employ highly qualified doctors proficient in both
         Western as well as <span className="text-[#5FCE55]">Eastern medical practices.</span>  We also <br />
         often have state-of-the-art infrastructure allowing them to offer a wide
