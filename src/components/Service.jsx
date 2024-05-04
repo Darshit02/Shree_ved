@@ -69,7 +69,7 @@ const Service = () => {
         },
         {
             name: "Agni Karma",
-            img: "IMGS.png",
+            img: "angikarma.jpg",
             specialized: (<span>Agni Karma, an <strong className='text-[#5FCE55]'>Ayurvedic therapeutic procedure</strong>, involves the controlled application of heat to address various health issues, particularly localized pain and inflammation. This method includes the targeted application of heat through herbal pastes or heated instruments, <strong className='text-[#5FCE55]'>stimulating circulation</strong> and <strong className='text-[#5FCE55]'>reducing inflammation</strong>. By balancing the doshas and enhancing the body's natural healing processes,<strong className='text-[#5FCE55]'> Agni Karma proves valuable in alleviating pain, promoting recovery</strong>, and contributing to the overall harmony of the individual's health.</span>),
             path: "services/agnikarma",
         },

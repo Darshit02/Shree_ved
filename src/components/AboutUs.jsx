@@ -38,17 +38,13 @@ const AboutUs = () => {
         viewport={{ once: true }}
       >
         The main aim of these institutions is to promote health and wellness by
-        focusing on balance between <span className="text-[#5FCE55]">Physical & mental health</span> . Our <br />
-        hospital usually employ highly qualified doctors proficient in both
-        Western as well as <span className="text-[#5FCE55]">Eastern medical practices.</span>  We also <br />
+        focusing on balance between <span className="text-[#5FCE55]">Physical & mental health</span> . Our
+        hospital usually employ highly qualified doctors proficient in ayurvedic treatments.  We also
         often have state-of-the-art infrastructure allowing them to offer a wide
         range of treatments for various ailments such as skin
-        <br />
         issues or behavioral disorders.
-        <br />
         Overall, if you're looking for a holistic <span className="text-[#5FCE55]">medical</span>  approach to treating
         your body, mind and soul then make sure to check out the “Services"
-        <br />
         section to know more About Our facility!
       </motion.p>
       <div className="flex w-full justify-center text-base" >
