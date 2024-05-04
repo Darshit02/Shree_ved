@@ -9,7 +9,7 @@ const PhoneNumber = ({ phoneNumber }) => {
   return (
     <>
       <a
-        className="text-gray-600 hover:text-gray-800 flex gap-2 py-1 items-center"
+        className="text-gray-600 hover:text-gray-800 flex gap-2 py-1 items-center md:justify-normal justify-center"
         onClick={handleCallClick} // Call handleCallClick function on click
         style={{ cursor: 'pointer' }} // Change cursor to pointer on hover
       >

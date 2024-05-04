@@ -10,8 +10,8 @@ const Footer = () => {
         <>
 
             <footer className="text-gray-600 body-font bg-[#ECF5DE]">
-                <div className="container px-5 pt-10 pb-5 mx-auto ">
-                    <div className="md:flex flex-wrap justify-evenly md:text-left text-center order-first hidden">
+                <div className="container px-5 pt-10 md:pb-5 pb-0 mx-auto ">
+                    <div className="flex flex-wrap justify-evenly md:text-left text-center order-first">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Know US</h2>
                             <nav className="list-none mb-10">
@@ -33,14 +33,14 @@ const Footer = () => {
                             </nav>
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Shree-Ved Ayurveda Hospital</h2>
+                            <h2 className="title-font font-medium text-gray-900 tracking-widest  text-sm mb-3">Shree-Ved Ayurveda Hospital</h2>
                             <p>
                                 Discover Harmony
                                 and Healing with
                                 Ayurveda.
                             </p>
                         </div>
-                        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+                        <div className="lg:w-1/4 md:w-1/2 w-full px-4 md:my-0 my-2">
                             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Contact US </h2>
                             <nav className="list-none mb-10">
                                 <li>
@@ -58,7 +58,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="bg-[#ECF5DE] flex items-center justify-center">
-                    <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+                    <div className="container px-5 md:py-6 py-2 mx-auto flex items-center sm:flex-row flex-col">
                         <div className="flex ml-5 items-center flex-row ">
                             <a href="/">
                                 <img className="h-9 w-9 mix-blend-multiply" src="logo.png" alt="" />
