@@ -1,10 +1,11 @@
 import React, { useRef } from "react";
-import { easeInOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import emailjs from '@emailjs/browser';
+import toast, { Toaster } from "react-hot-toast";
 
 const Contectus = () => {
-
   const form = useRef();
+ 
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -12,14 +13,20 @@ const Contectus = () => {
     emailjs.sendForm('service_91muqel', 'template_uz15dpu', form.current, 'oPO3F5R2J-OEnNYsZ')
       .then((result) => {
         console.log(result.text);
+        toast.success('Email sent Successfully!!' , {
+          position: "top-right"
+        });
       }, (error) => {
         console.log(error.text);
+        toast.error('Something went wrong')
       });
     e.target.reset();
   };
 
   return (
     <>
+    {/* hot toast code */}
+    <Toaster /> 
       <div className="contain pt-5 mb-5 md:mt-10" id="contact">
         <motion.div
           className="text-4xl font-semibold "
